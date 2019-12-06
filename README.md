@@ -3,7 +3,7 @@
 
 ## Reading 关键词词云
 
-![](reading_output.png)
+![](reading_wordcloud_output.png)
 
 ## 安装脚本
 
