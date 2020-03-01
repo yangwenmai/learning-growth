@@ -28,17 +28,18 @@ func main() {
 	handleError(err, "open README.md")
 	defer file.Close()
 	defer file2.Close()
-	md := "# 个人阅读学习整理跟踪\n" +
-		"[![Github Stars](https://img.shields.io/github/stars/yangwenmai/reading.svg)](http://godoc.org/github.com/yangwenmai/reading) [![GitHub issues opened](https://img.shields.io/github/issues/yangwenmai/reading.svg)](https://github.com/yangwenmai/reading/issues) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/yangwenmai/reading.svg?maxAge=2592000)]() [![license](https://img.shields.io/github/license/yangwenmai/reading.svg?maxAge=2592000)](https://github.com/yangwenmai/reading/LICENSE)" +
-		"我会将看过的文章（觉得还不错的），同步推送到 [yangwenmai/reading Issues](https://github.com/yangwenmai/reading) 中，如果你想就这些文章进行交流和讨论，欢迎在 issue 中评论。" +
-		">也欢迎大家入群交流，我的微信: mai_yang，请备注：姓名+公司+Github-reading。\n\n"
+	md := "# 阅读记录\n\n" +
+		"\n我会将想看/看过的文章，同步推送到 [yangwenmai/reading Issues](https://github.com/yangwenmai/reading/issues) 中，如果你对他们有任何想法与意见，欢迎在 issue 中评论。\n\n"
+
 	md += "## Reading 关键词词云\n\n"
-	md += "![](reading_output.png)\n\n"
+	md += "![](reading_wordcloud_output.png)\n\n"
+
 	md += "## 安装脚本\n\n"
 	md += "1. [词云可视化：四行 Python 代码轻松上手到精通](https://github.com/TommyZihao/zihaowordcloud/)\n"
 	md += "2. `export GITHUB_ACCESS_TOKEN=[Your Github Personal ACCESS_TOKEN]`\n"
 	md += "3. `go run main.go`\n"
 	md += "4. `python reading_wordcloud.py`\n\n"
+
 	md += "## Reading List\n\n"
 	md += "| Issues ID | 标题 | 创建时间 |\n"
 	md += "|----|----|----|\n"
@@ -47,7 +48,11 @@ func main() {
 		fmt.Println("Run: ", githubURL)
 		resp, err := http.Get(githubURL)
 		handleError(err, "get github issues url:"+githubURL)
-		defer resp.Body.Close()
+		defer func() {
+			if resp != nil && resp.Body != nil {
+				resp.Body.Close()
+			}
+		}()
 		body, err := ioutil.ReadAll(resp.Body)
 		handleError(err, "resp body read failed.")
 		gj := gjson.Parse(string(body))
@@ -126,6 +131,7 @@ func getBeijingTime(createdAt string) string {
 	t = t.In(loc)
 	return t.Format("2006-01-02 15:04:05")
 }
+
 func getTargetURL2(issueNumber int64, title string, ret string) (string, error) {
 	splitStr := "via Instapaper"
 	if !strings.Contains(ret, splitStr) {
