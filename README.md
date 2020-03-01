@@ -1,6 +1,6 @@
 # 学习成长
 
-[![Github Stars](https://img.shields.io/github/stars/yangwenmai/leanring-growth.svg)](http://godoc.org/github.com/yangwenmai/learning-growth) [![GitHub issues opened](https://img.shields.io/github/issues/yangwenmai/learning-growth.svg)](https://github.com/yangwenmai/learning-growth/issues) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/yangwenmai/learning-growth.svg?maxAge=2592000)]() [![license](https://img.shields.io/github/license/yangwenmai/learning-growth.svg?maxAge=2592000)](https://github.com/yangwenmai/learning-growth/LICENSE)
+[![Github Stars](https://img.shields.io/github/stars/yangwenmai/leanring-growth.svg)](http://github.com/yangwenmai/learning-growth) [![GitHub issues opened](https://img.shields.io/github/issues/yangwenmai/learning-growth.svg)](https://github.com/yangwenmai/learning-growth/issues) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/yangwenmai/learning-growth.svg?maxAge=2592000)]() [![license](https://img.shields.io/github/license/yangwenmai/learning-growth.svg?maxAge=2592000)](https://github.com/yangwenmai/learning-growth/LICENSE)
 
 学习成长，学习记录/轨迹仓库。
 
@@ -90,7 +90,9 @@
 1. Telegram 阅读之美（学习成长）
     - [https://t.me/learning_growth](https://t.me/learning_growth)
 2. 知识星球 阅读之美
-![](./assets/images/read_more_books_zsxq.jpg)
+
+<img src="https://raw.githubusercontent.com/yangwenmai/learning-growth/master/assets/images/read_more_books_zsxq.jpg" width="400px;"/>
+
 3. Slack Go 夜读
     - [https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
 
