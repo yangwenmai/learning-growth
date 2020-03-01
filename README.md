@@ -76,14 +76,9 @@
 
 # 07. Profile
 
-### IM
+### [POP](https://impopper.com/)
 
-1. 微信
-    - `mai_yang`
-2. Telegram
-    - [https://t.me/maiyang](https://t.me/maiyang)
-3. POP
-    - `314 349 567`
+我的 POP ID: `314 349 567`
 
 ### 其他频道
 
