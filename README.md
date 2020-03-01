@@ -36,9 +36,8 @@
 
 ## 学习 App
 
-[英语流利说](./02.leanring/learning-english/)
-
-1. 极客时间
+- [英语流利说](./02.learning/learning-english)
+- 极客时间
 
 ## 学习网站
 

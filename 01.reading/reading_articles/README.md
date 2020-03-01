@@ -13,6 +13,10 @@
 3. `go run main.go`
 4. `python reading_wordcloud.py`
 
+TODO: 
+
+- 多次运行时，不用每次都去抓取历史 issues
+
 ## Reading List
 
 | Issues ID | 标题 | 创建时间 |

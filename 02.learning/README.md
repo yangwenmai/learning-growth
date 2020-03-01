@@ -6,9 +6,8 @@
 
 ## 学习 App
 
-[英语流利说](./learning-english/)
-
-1. 极客时间
+- [英语流利说](./learning-english/)
+- 极客时间
 
 ## 学习网站
 
