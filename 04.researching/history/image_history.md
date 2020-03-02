@@ -756,7 +756,7 @@ GenericSrc-8       4.24ms ± 1%  4.24ms ± 0%     ~     (p=0.436 n=9+9)
 GenericMaskSrc-8   7.89ms ± 1%  7.90ms ± 2%     ~     (p=0.631 n=10+10)
 ```
 
-引申出来一篇文档：《边界值检查消除 Bounds Checking Elimination（BCE）- https://docs.google.com/document/d/1vdAEAjYdzjnPA9WDOQ1e4e05cYVMpqSxJYZT33Cqw2g/edit#》
+引申出来一篇文档：《边界值检查消除 Bounds Checking Elimination（BCE）- https://docs.google.com/document/d/1vdAEAjYdzjnPA9WDOQ1e4e05cYVMpqSxJYZT33Cqw2g/edit# 》
 
 > BCE is important because: it speeds up the code, makes the binary smaller. 
 >
