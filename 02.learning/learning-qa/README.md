@@ -47,9 +47,9 @@ BQOnline（Better Quality Online）是由 ThoughtWorks QA Community 发起的一
 
 | 期数 |活动概览 | 视频回看 | PPT |
 |----|----|----|----|
-|第一期8月28日| 首先作者朱少民老师为我们带来了简单的开场介绍，接着刘冉老师分享了1-5章的内容，从整体上介绍全程软件测试的概念、思想和前提条件。| 需要在微信中打开：https://app.ma.scrmtech.com/svip/sapIndex/SapSourceData?pf_uid=7019_1254&sid=10379&source=2&pf_type=3&channel_id=2257&channel_name=message-playback-after-webinar&tag_id=385d868c7f8482d9 | 第一期 PPT：http://www.bqconf.com/wp-content/uploads/2019/09/全程软件测试第3版第一期-1.pptx) |
-|第二期9月5日| 本期吕华老师结合自己在诸多项目中的探索和实践，为我们讲述了自己对 6-10 章的理解，分享了从产品和项目两个维度出发的一些思考和感悟。| 需要在微信中打开：https://app.ma.scrmtech.com/svip/sapIndex/SapSourceData?pf_uid=7019_1254&sid=10448&source=2&pf_type=3&channel_id=2213&channel_name=fuwuhao-playback&tag_id=26da3eacaecb8ff8 | 第二期 PPT：http://www.bqconf.com/wp-content/uploads/2019/09/全程软件测试第二期.pptx) |
-|第三期9月19日| 刘冉老师辅以讲师多年的项目实践和经验，分享包括性能、安全以及可视化度量等话题，并和朱少民老师一起解答前两期的遗留问题。| 需要在微信中打开：https://app.ma.scrmtech.com/svip/sapIndex/SapSourceData?pf_uid=7019_1254&sid=10451&source=2&pf_type=3&channel_id=2212&channel_name=message-5min-advance&tag_id=c7362bfd8014d749 | 第三期 PPT：http://www.bqconf.com/wp-content/uploads/2019/09/《全程软件测试》第三期.pptx |
+|第一期8月28日| 首先作者朱少民老师为我们带来了简单的开场介绍，接着刘冉老师分享了1-5章的内容，从整体上介绍全程软件测试的概念、思想和前提条件。| [视频回看：需要在微信中打开](https://app.ma.scrmtech.com/svip/sapIndex/SapSourceData?pf_uid=7019_1254&sid=10379&source=2&pf_type=3&channel_id=2257&channel_name=message-playback-after-webinar&tag_id=385d868c7f8482d9) | 第一期 PPT：http://www.bqconf.com/wp-content/uploads/2019/09/全程软件测试第3版第一期-1.pptx) |
+|第二期9月5日| 本期吕华老师结合自己在诸多项目中的探索和实践，为我们讲述了自己对 6-10 章的理解，分享了从产品和项目两个维度出发的一些思考和感悟。| 视频回看：需要在微信中打开](https://app.ma.scrmtech.com/svip/sapIndex/SapSourceData?pf_uid=7019_1254&sid=10448&source=2&pf_type=3&channel_id=2213&channel_name=fuwuhao-playback&tag_id=26da3eacaecb8ff8) | 第二期 PPT：http://www.bqconf.com/wp-content/uploads/2019/09/全程软件测试第二期.pptx) |
+|第三期9月19日| 刘冉老师辅以讲师多年的项目实践和经验，分享包括性能、安全以及可视化度量等话题，并和朱少民老师一起解答前两期的遗留问题。| [视频回看：需要在微信中打开](https://app.ma.scrmtech.com/svip/sapIndex/SapSourceData?pf_uid=7019_1254&sid=10451&source=2&pf_type=3&channel_id=2212&channel_name=message-5min-advance&tag_id=c7362bfd8014d749) | 第三期 PPT：http://www.bqconf.com/wp-content/uploads/2019/09/《全程软件测试》第三期.pptx |
 
 
 [第二届 BQOnline 好书分享活动总结 - 详情页面](http://www.bqconf.com/2019/09/%e7%ac%ac%e4%ba%8c%e5%b1%8abqonline%e5%a5%bd%e4%b9%a6%e5%88%86%e4%ba%ab%e6%b4%bb%e5%8a%a8%e6%80%bb%e7%bb%93/)
