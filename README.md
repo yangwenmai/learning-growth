@@ -25,8 +25,13 @@
 - Github Reading Issues
 - Reading 词云
 
+处理流程：
+
+我会通过 iOS 捷径功能复制链接，通过 IFTTT + Instapaper 同步到 GitHub Issues，浏览器则通过 Chrome Instapaper 插件将看过的文章保存到 Instapaper 然后再同步到 GitHub Issues。
+
 ### Reading Papers
 
+https://talkgo.org/c/paper-reading
 
 # 02. 学习
 
@@ -34,10 +39,10 @@
 
 重思想，不求回报，不求收益，只求搞明白。。
 
-- [英语学习](./02.learning/learning-english)
-- [博弈论](./02.learning/learning-game-theory)
-- [Linux](./02.learning/learning-linux)
-- [QA 相关学习](./02.learning/learning-qa)
+- [英语学习](https://github.com/yangwenmai/learning-growth/tree/master/02.learning/learning-english)
+- [博弈论](https://github.com/yangwenmai/learning-growth/tree/master/02.learning/learning-game-theory)
+- [Linux](https://github.com/yangwenmai/learning-growth/tree/master/02.learning/learning-linux)
+- [QA 相关学习](https://github.com/yangwenmai/learning-growth/tree/master/02.learning/learning-qa)
 
 # 03. 社交
 
