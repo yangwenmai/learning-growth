@@ -1,6 +1,6 @@
 # 学习成长
 
-[![Github Stars](https://img.shields.io/github/stars/yangwenmai/leanring-growth.svg)](http://github.com/yangwenmai/learning-growth) [![GitHub issues opened](https://img.shields.io/github/issues/yangwenmai/learning-growth.svg)](https://github.com/yangwenmai/learning-growth/issues) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/yangwenmai/learning-growth.svg?maxAge=2592000)]() [![license](https://img.shields.io/github/license/yangwenmai/learning-growth.svg?maxAge=2592000)](https://github.com/yangwenmai/learning-growth/LICENSE)
+[![Github Stars](https://img.shields.io/github/stars/yangwenmai/learning-growth.svg)](http://github.com/yangwenmai/learning-growth) [![GitHub issues opened](https://img.shields.io/github/issues/yangwenmai/learning-growth.svg)](https://github.com/yangwenmai/learning-growth/issues) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/yangwenmai/learning-growth.svg?maxAge=2592000)]() [![license](https://img.shields.io/github/license/yangwenmai/learning-growth.svg?maxAge=2592000)](https://github.com/yangwenmai/learning-growth/LICENSE)
 
 学习成长，学习记录/轨迹仓库。
 
