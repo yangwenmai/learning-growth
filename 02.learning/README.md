@@ -8,6 +8,7 @@
 
 - [英语流利说](./learning-english/)
 - 极客时间
+  - [Linux 性能优化实战](./learning-linux/)
 
 ## 学习网站
 
