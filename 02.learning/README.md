@@ -4,17 +4,7 @@
 
 重思想，不求回报，不求收益，只求搞明白。。
 
-## 学习 App
-
-- [英语流利说](./learning-english/)
-- 极客时间
-  - [Linux 性能优化实战](./learning-linux/)
-
-## 学习网站
-
-1. AlgoCasts
-2. AlgorithmsWithGo
-
-## 学习课程
-
-- [博弈论](./learning-game-theory)
+- [英语学习](./02.learning/learning-english)
+- [博弈论](./02.learning/learning-game-theory)
+- [Linux](./02.learning/learning-linux)
+- [QA 相关学习](./02.learning/learning-qa)
