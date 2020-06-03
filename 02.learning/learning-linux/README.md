@@ -4,8 +4,8 @@
 
 | 书籍（详情） | 进度 |
 |----|----|
-| [Linux 内核设计与实现](https://github.com/developer-learning/learning-linux/issues/1) | 0% |
-| [TODO]((https://github.com/developer-learning/learning-linux/issues)) | 0% |
+| [Linux 内核设计与实现](https://github.com/yangwenmai/learning-linux/issues/1) | 0% |
+| [Linux 性能优化实战 by 倪朋飞](./Linux 性能优化实战/) | 30% |
 
 ## 书单
 
