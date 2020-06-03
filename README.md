@@ -34,19 +34,10 @@
 
 重思想，不求回报，不求收益，只求搞明白。。
 
-## 学习 App
-
-- [英语流利说](./02.learning/learning-english)
-- 极客时间
-
-## 学习网站
-
-1. AlgoCasts
-2. AlgorithmsWithGo
-
-## 学习课程
-
+- [英语学习](./02.learning/learning-english)
 - [博弈论](./02.learning/learning-game-theory)
+- [Linux](./02.learning/learning-linux)
+- [QA 相关学习](./02.learning/learning-qa)
 
 # 03. 社交
 
@@ -76,20 +67,14 @@
 
 # 07. Profile
 
-### [POP](https://impopper.com/)
+### [画音](https://huayinapp.com/)
 
-我的 POP ID: `314 349 567`
+我的画音 ID: `314 349 567`
 
 ### 其他频道
 
-1. Telegram 阅读之美（学习成长）
-    - [https://t.me/learning_growth](https://t.me/learning_growth)
-2. 知识星球 阅读之美
-
-<img src="https://raw.githubusercontent.com/yangwenmai/learning-growth/master/assets/images/read_more_books_zsxq.jpg" width="400px;"/>
-
-3. Slack Go 夜读
-    - [https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY](https://join.slack.com/t/night-reading-go/shared_invite/enQtNjQ4NjQ5MjcwMDgwLTI5N2RhZDY3YTk3ZTE1MjM0ZmQ3ODNiMmQ4MWZhODlkZmQ0YTg5YmMxYTQzMmUwZDNiMmZkODdhNWIwNzExOWY)
+Telegram 阅读之美（学习成长）
+- [https://t.me/learning_growth](https://t.me/learning_growth)
 
 # 08. 如何贡献？
 
