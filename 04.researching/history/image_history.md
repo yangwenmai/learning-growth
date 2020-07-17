@@ -814,6 +814,92 @@ Updates #15759.
 
 以上基于：https://github.com/golang/go/commits/master/src/image/draw/draw.go history。
 
+
+
+----
+
+2020-07-18 开始补充
+
+
+
+## 优化八：image/draw: optimize paletted dst + uniform src
+
+```
+image/draw: optimize paletted dst + uniform src
+
+name            old time/op  new time/op  delta
+PalettedFill-4  5.74ms ± 1%  0.01ms ± 1%  -99.78%  (p=0.008 n=5+5)
+PalettedRGBA-4  3.34ms ± 3%  3.33ms ± 0%     ~     (p=0.690 n=5+5)
+
+Fixes https://github.com/golang/go/issues/35938
+
+Thanks to pjbgtnj for the suggestion.
+```
+
+
+
+## 优化九：image/png: hoist repetitive pixels per byte out of loop in Encode
+
+```
+image/png: hoist repetitive pixels per byte out of loop in Encode
+
+The existing implementation has calculated pixels per byte for each pixel.
+reduce the calculation of pixels per byte.
+
+name                        old time/op    new time/op     delta
+EncodeGray-4                  2.16ms ± 1%     2.16ms ± 1%    -0.28%  (p=0.000 n=86+84)
+EncodeGrayWithBufferPool-4    1.99ms ± 0%     1.97ms ± 0%    -0.72%  (p=0.000 n=97+92)
+EncodeNRGBOpaque-4            6.51ms ± 1%     6.48ms ± 1%    -0.45%  (p=0.000 n=90+85)
+EncodeNRGBA-4                 7.33ms ± 1%     7.28ms ± 0%    -0.69%  (p=0.000 n=89+87)
+EncodePaletted-4              5.10ms ± 1%     2.29ms ± 0%   -55.11%  (p=0.000 n=90+85)
+EncodeRGBOpaque-4             6.51ms ± 1%     6.51ms ± 0%      ~     (p=0.311 n=94+88)
+EncodeRGBA-4                  24.3ms ± 2%     24.1ms ± 1%    -0.87%  (p=0.000 n=91+91)
+
+name                        old speed      new speed       delta
+EncodeGray-4                 142MB/s ± 1%    143MB/s ± 1%    +0.26%  (p=0.000 n=86+85)
+EncodeGrayWithBufferPool-4   154MB/s ± 0%    156MB/s ± 0%    +0.73%  (p=0.000 n=97+92)
+EncodeNRGBOpaque-4           189MB/s ± 1%    190MB/s ± 1%    +0.44%  (p=0.000 n=90+86)
+EncodeNRGBA-4                168MB/s ± 1%    169MB/s ± 0%    +0.69%  (p=0.000 n=89+87)
+EncodePaletted-4            60.3MB/s ± 1%  134.2MB/s ± 0%  +122.74%  (p=0.000 n=90+85)
+EncodeRGBOpaque-4            189MB/s ± 1%    189MB/s ± 0%      ~     (p=0.326 n=94+88)
+EncodeRGBA-4                50.6MB/s ± 2%   51.1MB/s ± 1%    +0.87%  (p=0.000 n=91+91)
+
+name                        old alloc/op   new alloc/op    delta
+EncodeGray-4                   852kB ± 0%      852kB ± 0%    +0.00%  (p=0.000 n=100+100)
+EncodeGrayWithBufferPool-4    1.49kB ± 2%     1.47kB ± 1%    -0.88%  (p=0.000 n=95+90)
+EncodeNRGBOpaque-4             860kB ± 0%      860kB ± 0%    +0.00%  (p=0.003 n=98+58)
+EncodeNRGBA-4                  864kB ± 0%      864kB ± 0%    +0.00%  (p=0.021 n=100+99)
+EncodePaletted-4               849kB ± 0%      849kB ± 0%    +0.00%  (p=0.040 n=100+100)
+EncodeRGBOpaque-4              860kB ± 0%      860kB ± 0%      ~     (p=0.062 n=66+98)
+EncodeRGBA-4                  3.32MB ± 0%     3.32MB ± 0%    -0.00%  (p=0.044 n=99+99)
+
+name                        old allocs/op  new allocs/op   delta
+EncodeGray-4                    32.0 ± 0%       32.0 ± 0%      ~     (all equal)
+EncodeGrayWithBufferPool-4      3.00 ± 0%       3.00 ± 0%      ~     (all equal)
+EncodeNRGBOpaque-4              32.0 ± 0%       32.0 ± 0%      ~     (all equal)
+EncodeNRGBA-4                   32.0 ± 0%       32.0 ± 0%      ~     (all equal)
+EncodePaletted-4                36.0 ± 0%       36.0 ± 0%      ~     (all equal)
+EncodeRGBOpaque-4               32.0 ± 0%       32.0 ± 0%      ~     (all equal)
+EncodeRGBA-4                    614k ± 0%       614k ± 0%      ~     (all equal)
+```
+
+提前计算好，避免在 for 循环内多次重复计算。
+
+
+
+## 优化十：image/gif: speed up initializing test image
+
+```
+The benchmark throughput numbers don't change, but the set-up time (the
+time taken before the b.ResetTimer() call) drops from 460ms to 4ms.
+
+https://github.com/golang/go/commit/97019105884ced2c4658f9763528e7f6983f8773#diff-d90c5b811de11d0d53e5d77f2162f6eb
+```
+
+
+
+
+
 ----
 
 
