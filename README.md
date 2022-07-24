@@ -8,6 +8,8 @@
 
 >本项目中所述内容均为我的个人行为，欢迎大家积极与我讨论，但还请各位手下留情，不要给我带来过大的纷争。
 
+👇🏻 我开通的一个 Newsletter 「一叶知秋」，有兴趣的朋友可以扫码订阅。
+
 ![](https://raw.githubusercontent.com/yangwenmai/learning-growth/master/assets/images/「一叶知秋」集散地-二维码.jpg)
 
 # 01. 阅读
