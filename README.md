@@ -60,7 +60,7 @@ https://talkgo.org/c/paper-reading
 - TUG
 - PingCAP Infra Meetup
 - ArchSummit
-- 科创IT人
+- 科创 IT 人
 
 # 04. 深度探究
 
@@ -80,11 +80,9 @@ https://talkgo.org/c/paper-reading
 
 # 07. Profile
 
-### [画音](https://huayinapp.com/)
+### [maiyang.me](https://maiyang.me/)
 
-我的画音 ID: `314 349 567`
-
-### 其他频道
+### 其他
 
 Telegram 阅读之美（学习成长）
 - [https://t.me/learning_growth](https://t.me/learning_growth)

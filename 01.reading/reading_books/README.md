@@ -74,3 +74,5 @@ VUCA 是 volatility(易变性)、uncertainty(不确定性)、complexity(复杂�
 ### 重新理解创业（周航）
 
 https://github.com/yangwenmai/learning-growth/files/3533117/-.-mai.pdf
+
+----
