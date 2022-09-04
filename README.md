@@ -12,6 +12,10 @@
 
 ![](https://raw.githubusercontent.com/yangwenmai/learning-growth/master/assets/images/「一叶知秋」集散地-二维码.jpg)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yangwenmai/learning-growth&type=Date)](https://star-history.com/#yangwenmai/learning-growth&Date)
+
 # 01. 阅读
 
 罗列我所看过的书籍、文章、论文。
